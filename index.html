@@ -1,0 +1,509 @@
+<!DOCTYPE html>
+<html lang="en">
+
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width,initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <link rel="stylesheet" href="css/reset.css" />
+    <link rel="stylesheet" href="libs/slick/slick.css" />
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <title>Тестовое</title>
+  </head>
+
+  <body>
+    <div class="head"></div>
+    <header class="header">
+      <div class="container">
+        <div class="header__inner">
+          <div class="logo">
+            <a href="#"><img src="images/logo.svg" class="logo" alt="logo"></a>
+          </div>
+          <nav class="menu">
+            <ul class="menu__list">
+              <li class="menu__list-item">
+                <a class="menu__list-link active-link" href="#">Каталог</a>
+              </li>
+              <li class="menu__list-item">
+                <a class="menu__list-link" href="#">Производители</a>
+              </li>
+              <li class="menu__list-item">
+                <a class="menu__list-link" href="#">Для кого мы работаем</a>
+              </li>
+              <li class="menu__list-item">
+                <a class="menu__list-link" href="#">Сертификаты</a>
+              </li>
+              <li class="menu__list-item">
+                <a class="menu__list-link" href="#">О нас</a>
+              </li>
+              <li class="menu__list-item">
+                <a class="menu__list-link" href="#">FAQ</a>
+              </li>
+              <li class="menu__list-item">
+                <a class="menu__list-link" href="#">Контакты</a>
+              </li>
+            </ul>
+          </nav>
+          <div class="header__contacts">
+            <img src="images/whatsapp.svg" class="header__contacts-image" alt="whatsapp" />
+            <span class="header__contacts-phone regular">+7 (812)</span>
+            <span class="header__contacts-phone bold">313-58-45</span>
+          </div>
+          <button type="button" class="mobile-nav-button">
+            <span class="mobile-nav-button__icon"></span>
+          </button>
+        </div>
+      </div>
+      <div class="mobile-nav">
+        <nav class="mobile-nav-list">
+          <nav class="menu mobile-nav-button">
+            <ul class="menu__list">
+              <li class="menu__list-item">
+                <a class="menu__list-link active-link" href="#">Каталог</a>
+              </li>
+              <li class="menu__list-item">
+                <a class="menu__list-link" href="#">Производители</a>
+              </li>
+              <li class="menu__list-item">
+                <a class="menu__list-link" href="#">Для кого мы работаем</a>
+              </li>
+              <li class="menu__list-item">
+                <a class="menu__list-link" href="#">Сертификаты</a>
+              </li>
+              <li class="menu__list-item">
+                <a class="menu__list-link" href="#">О нас</a>
+              </li>
+              <li class="menu__list-item">
+                <a class="menu__list-link" href="#">FAQ</a>
+              </li>
+              <li class="menu__list-item">
+                <a class="menu__list-link" href="#">Контакты</a>
+              </li>
+            </ul>
+          </nav>
+        </nav>
+      </div>
+    </header>
+    <main class="main">
+      <section class="supplies supplies-bg">
+        <img src="images/bg1.png" />
+        <div class="container">
+          <div class="supplies__container">
+            <div class="supplies__blog">
+              <h1 class="supplies__blog-title">Оптовые поставки <span class="supplies__blog-color">электронных
+                  компонентов </span><span class="supplies__blog-color1">ИЗ КИТАЯ день в день</span></h1>
+              <p class="supplies__blog-text">Комплексные поставки электронных компонентов и оборудования. Подберем
+                аналоги популярных брендов из Европы в условиях санкций.</p>
+              <div class="list">
+                <ul class="supplies__blog-list">
+                  <li class="supplies__blog-item">Отсрочка платежей для постоянных клиентов</li>
+                  <li class="supplies__blog-item">Бесплатная доставка по Москве и СПБ в течение 2х часов</li>
+                  <li class="supplies__blog-item">Квалифицированный персональный менеджер</li>
+                </ul>
+              </div>
+            </div>
+            <div class="supplies__blog">
+              <div class="form" action="">
+                <h3 class="form__title">ЗАКАЖИТЕ <br>ОБРАТНЫЙ ЗВОНОК</h3>
+                <div class="form__wrap">
+                  <div class="inputBox">
+                    <label for="GET-name">Ваше имя*</label>
+                    <input id="GET-name" type="text" name="name" value="Ваше имя" class="form__input" />
+                  </div>
+                  <div class="inputBox">
+                    <label for="GET-name">Ваш номер*</label>
+                    <input id="GET-name" type="text" name="name" value="+7 (_ _ _) _ _ _-_ _-_ _" class="form__input" />
+                  </div>
+                  <input type="submit" value="Заказать звонок" class="input__button button" />
+                  <h6 class="form__copyright">Мы гарантируем конфиденциальность данных</h6>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="about">
+        <div class="container__about">
+          <h3 class="about__title title">Почему с нами выгодно</h3>
+          <p class="about__descr">С 1996 года мы занимаемся оптовыми поставками электронных компонентов от ведущих
+            производителей из Европы и Азии для Российских потребителей. </p>
+          <div class="about__wrap">
+            <div class="about__wrap-list">
+              <div class="about__wrap-item item">
+                <img src="images/about-1.svg" class="item__images" alt="icon" />
+                <h4 class="item__title">Качественная продукция</h4>
+                <p class="item__descr">Все наши товары сертифицированы и имеют сопроводительную документацию.</p>
+              </div>
+              <div class="about__wrap-item item">
+                <img src="images/about-2.svg" class="item__images" alt="icon" />
+                <h4 class="item__title">Индивидуальный подход</h4>
+                <p class="item__descr">Возможность изготовления компонентов специально для вас на заводах-изготовителя.
+                </p>
+              </div>
+              <div class="about__wrap-item item">
+                <img src="images/about-3.svg" class="item__images" alt="icon" />
+                <h4 class="item__title">Бесплатная доставка</h4>
+                <p class="item__descr">При наличии товара на складе и заказе от 10 000 рублей, доставим бесплатно по
+                  Москве и СПБ в течение 2х часов.</p>
+              </div>
+              <div class="about__wrap-item item">
+                <img src="images/about-4.svg" class="item__images" alt="icon" />
+                <h4 class="item__title">Подбираем аналоги</h4>
+                <p class="item__descr">Поможем подобрать аналоги популярных европейских брендов в условиях санкций.</p>
+              </div>
+              <div class="about__wrap-item item">
+                <img src="images/about-5.svg" class="item__images" alt="icon" />
+                <h4 class="item__title">Резервный запас компонентов</h4>
+                <p class="item__descr">Хранение товара на наших складах для постоянных клиентов..</p>
+              </div>
+              <div class="about__wrap-item item">
+                <img src="images/about-6.svg" class="item__images" alt="icon" />
+                <h4 class="item__title">Гибкая система оплаты</h4>
+                <p class="item__descr">Отсрочка платежей для постоянных клиентов.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="product">
+        <div class="container">
+          <h3 class="product__title title">Наши производители</h3>
+          <div class="product__inner">
+            <div class="reviews__cards">
+              <div class="slider__container">
+                <div class="slick__item direct">
+                  <div class="reviews__item">
+                    <div class="reviews__item-wrap">
+                      <img src="images/slider-item1.png" alt="photo" class="reviews__img">
+                    </div>
+                    <div class="reviews__item-wrap">
+                      <img src="images/slider-item2.png" alt="photo" class="reviews__img">
+                    </div>
+                    <div class="reviews__item-wrap">
+                      <img src="images/slider-item3.png" alt="photo" class="reviews__img">
+                    </div>
+                    <div class="reviews__item-wrap">
+                      <img src="images/slider-item4.png" alt="photo" class="reviews__img">
+                    </div>
+                    <div class="reviews__item-wrap">
+                      <img src="images/slider-item5.png" alt="photo" class="reviews__img">
+                    </div>
+                  </div class="reviews__item-wrap">
+                </div>
+                <div class="slick__item direct">
+                  <div class="reviews__item">
+                    <div class="reviews__item-wrap">
+                      <img src="images/slider-item1.png" alt="photo" class="reviews__img">
+                    </div>
+                    <div class="reviews__item-wrap">
+                      <img src="images/slider-item2.png" alt="photo" class="reviews__img">
+                    </div>
+                    <div class="reviews__item-wrap">
+                      <img src="images/slider-item3.png" alt="photo" class="reviews__img">
+                    </div>
+                    <div class="reviews__item-wrap">
+                      <img src="images/slider-item4.png" alt="photo" class="reviews__img">
+                    </div>
+                    <div class="reviews__item-wrap">
+                      <img src="images/slider-item5.png" alt="photo" class="reviews__img">
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <p class="product__descr">Lorem ipsum dolor sit amet consectetur. Non eget blandit in euismod felis id
+              quisque nunc. Non orci lacus elit mauris velit gravida imperdiet id. Ipsum pulvinar ac ut sociis. Sed
+              magna gravida consequat et euismod aenean quis mauris. Ut etiam egestas ultrices faucibus ultrices nisl
+              enim consequat faucibus. Nibh id leo ullamcorper eleifend. Id at commodo interdum et leo. </p>
+          </div>
+        </div>
+      </section>
+      <section class="work">
+        <div class="container">
+          <h3 class="work__title title">Схема работы</h3>
+          <p class="work__descr">Lorem ipsum dolor sit amet consectetur. Augue velit in enim sagittis imperdiet sit
+            mauris. Vitae sit in fusce massa amet.</p>
+          <div class="work__container">
+            <div class="work__blog">
+              <div class="work__blog-number">01</div>
+              <div class="work__blog-text">
+                <h3 class="work__blog-title">ВЫ ОСТАВЛЯЕТЕ ЗАЯВКУ</h3>
+                <p class="work__blog-descr">Отправить запрос вы можете любым удобным для вас способом: например, через
+                  форму на сайте. Также вы можете связаться с нами напрямую.</p>
+              </div>
+            </div>
+            <div class="work__blog">
+              <span class="work__blog-number">02</span>
+              <div class="work__blog-text">
+                <h3 class="work__blog-title">МЫ ПРОВЕРЯЕМ НАЛИЧИЕ ПОЗИЦИЙ</h3>
+                <p class="work__blog-descr">Проверяем наличие на складе, а также актуальность производства (возможна
+                  замена, если необходимо.) Если требуется замена - подбираем аналоги и привозим на заказ.
+                </p>
+              </div>
+            </div>
+            <div class="work__blog">
+              <span class="work__blog-number">03</span>
+              <div class="work__blog-text">
+                <h3 class="work__blog-title">ФОРМИРУЕМ КОММЕРЧЕСКОЕ ПРЕДЛОЖЕНИЕ
+                </h3>
+                <p class="work__blog-descr">На данном этапе мы с вами согласуем ценовое предложение, обговариваем сроки
+                  поставки и условия оплаты.
+                </p>
+              </div>
+            </div>
+            <div class="work__blog">
+              <span class="work__blog-number">06</span>
+              <div class="work__blog-text">
+                <h3 class="work__blog-title">ВЫ ПОЛУЧАЕТЕ ТОВАР</h3>
+                <p class="work__blog-descr">Поставляем вам товар в надлежащей упаковке в сопровождении оригиналов всех
+                  необходимых документов либо вы забираете его самовывозом.</p>
+              </div>
+            </div>
+            <div class="work__blog">
+              <span class="work__blog-number number">05</span>
+              <div class="work__blog-text">
+                <h3 class="work__blog-title">МЫ ВЫПОЛНЯЕМ ЗАКАЗ</h3>
+                <p class="work__blog-descr">Товар поступает на склад в Москву или Санкт-Петербург, где мы сверяем
+                  правильность поставки и начинаем сборку.
+                </p>
+              </div>
+            </div>
+            <div class="work__blog">
+              <span class="work__blog-number number">04</span>
+              <div class="work__blog-text">
+                <h3 class="work__blog-title">ПРОВОДИМ ОПЛАТУ
+                </h3>
+                <p class="work__blog-descr">Далее, после получения авансового платежа, мы размещаем заказ.</p>
+              </div>
+            </div>
+          </div>
+          <a class="work__button button">Оставить заявку</a>
+        </div>
+      </section>
+      <section class="questions">
+        <div class="container">
+          <h3 class="questions__title title">Ответы на самые популярные вопросы в сфере
+          </h3>
+          <div class="info-div">
+            <div class="bg">
+              <div class="usefull-links">Lorem ipsum dolor sit amet consectetur. Ultrices aliquam.
+                <i class="flaticon-down-arrow">
+                  <svg width="40" height="40" viewBox="0 0 40 40" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <circle cx="20" cy="20" r="20" fill="#757AEF" />
+                    <path
+                      d="M27.0013 19.161C27.0018 19.3104 26.9688 19.4581 26.9048 19.593C26.8407 19.728 26.7473 19.8469 26.6313 19.941L20.6313 24.771C20.4523 24.9181 20.2279 24.9985 19.9963 24.9985C19.7646 24.9985 19.5402 24.9181 19.3613 24.771L13.3613 19.771C13.157 19.6013 13.0286 19.3574 13.0042 19.093C12.9799 18.8285 13.0615 18.5653 13.2313 18.361C13.401 18.1568 13.6449 18.0284 13.9093 18.004C14.1738 17.9796 14.437 18.0613 14.6413 18.231L20.0013 22.701L25.3613 18.381C25.508 18.2588 25.6868 18.1811 25.8763 18.1572C26.0659 18.1333 26.2583 18.1642 26.4308 18.2463C26.6034 18.3284 26.7488 18.4581 26.8499 18.6202C26.9509 18.7823 27.0035 18.97 27.0013 19.161Z"
+                      fill="white" />
+                  </svg>
+                </i>
+              </div>
+              <div class="links">
+                <p>
+                  Like the phrase “stem cell” itself, “stem cell therapy” is often used to describe a variety of
+                  different medical therapies that utilize stem cells in some form to treat a patient. Sometimes the
+                  term is used incorrectly to refer to platelet rich plasma (PRP) injections. The term is also used to
+                  refer to stem cell transplants, also known as bone marrow transplants.
+                  <br>
+
+                  <br>Most commonly “stem cell therapy” is used to describe a procedure where the patient’s adult stem
+                  cells and other potentially regenerative cells are harvested from a tissue sample of either fat or
+                  bone marrow taken from the patient. These concentrated regenerative cells are then used to treat
+                  specific injuries typically by injecting them into the afflicted area. It should be said that this
+                  type of stem cell therapy is currently not FDA approved and clinics performing it illegally in the US
+                  or in other countries perform various versions of the procedure to treat illnesses and injuries with
+                  little to no clinical evidence.
+                  <br>
+
+                  <br>At InGeneron we use the term “regenerative cell therapy” since there are many different cell types
+                  and regenerative properties collected and used by our therapy along with adult stem cells. Importantly
+                  we do not treat patients outside of our approved clinical trials and we are dedicated to securing FDA
+                  approval through rigorous clinical testing.
+                </p>
+              </div>
+            </div>
+            <div class="bg">
+              <div class="usefull-links">Lorem ipsum dolor sit amet consectetur. Ultrices aliquam.<i
+                  class="flaticon-down-arrow">
+                  <svg width="40" height="40" viewBox="0 0 40 40" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <circle cx="20" cy="20" r="20" fill="#757AEF" />
+                    <path
+                      d="M27.0013 19.161C27.0018 19.3104 26.9688 19.4581 26.9048 19.593C26.8407 19.728 26.7473 19.8469 26.6313 19.941L20.6313 24.771C20.4523 24.9181 20.2279 24.9985 19.9963 24.9985C19.7646 24.9985 19.5402 24.9181 19.3613 24.771L13.3613 19.771C13.157 19.6013 13.0286 19.3574 13.0042 19.093C12.9799 18.8285 13.0615 18.5653 13.2313 18.361C13.401 18.1568 13.6449 18.0284 13.9093 18.004C14.1738 17.9796 14.437 18.0613 14.6413 18.231L20.0013 22.701L25.3613 18.381C25.508 18.2588 25.6868 18.1811 25.8763 18.1572C26.0659 18.1333 26.2583 18.1642 26.4308 18.2463C26.6034 18.3284 26.7488 18.4581 26.8499 18.6202C26.9509 18.7823 27.0035 18.97 27.0013 19.161Z"
+                      fill="white" />
+                  </svg>
+                </i></div>
+              <div class="links">
+                <p>
+                  Like the phrase “stem cell” itself, “stem cell therapy” is often used to describe a variety of
+                  different medical therapies that utilize stem cells in some form to treat a patient. Sometimes the
+                  term is used incorrectly to refer to platelet rich plasma (PRP) injections. The term is also used to
+                  refer to stem cell transplants, also known as bone marrow transplants.
+                  <br>
+
+                  <br>Most commonly “stem cell therapy” is used to describe a procedure where the patient’s adult stem
+                  cells and other potentially regenerative cells are harvested from a tissue sample of either fat or
+                  bone marrow taken from the patient. These concentrated regenerative cells are then used to treat
+                  specific injuries typically by injecting them into the afflicted area. It should be said that this
+                  type of stem cell therapy is currently not FDA approved and clinics performing it illegally in the US
+                  or in other countries perform various versions of the procedure to treat illnesses and injuries with
+                  little to no clinical evidence.
+                  <br>
+
+                  <br>At InGeneron we use the term “regenerative cell therapy” since there are many different cell types
+                  and regenerative properties collected and used by our therapy along with adult stem cells. Importantly
+                  we do not treat patients outside of our approved clinical trials and we are dedicated to securing FDA
+                  approval through rigorous clinical testing.
+                </p>
+              </div>
+            </div>
+            <div class="bg">
+              <div class="usefull-links">Lorem ipsum dolor sit amet consectetur. Ultrices aliquam.<i
+                  class="flaticon-down-arrow">
+                  <svg width="40" height="40" viewBox="0 0 40 40" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <circle cx="20" cy="20" r="20" fill="#757AEF" />
+                    <path
+                      d="M27.0013 19.161C27.0018 19.3104 26.9688 19.4581 26.9048 19.593C26.8407 19.728 26.7473 19.8469 26.6313 19.941L20.6313 24.771C20.4523 24.9181 20.2279 24.9985 19.9963 24.9985C19.7646 24.9985 19.5402 24.9181 19.3613 24.771L13.3613 19.771C13.157 19.6013 13.0286 19.3574 13.0042 19.093C12.9799 18.8285 13.0615 18.5653 13.2313 18.361C13.401 18.1568 13.6449 18.0284 13.9093 18.004C14.1738 17.9796 14.437 18.0613 14.6413 18.231L20.0013 22.701L25.3613 18.381C25.508 18.2588 25.6868 18.1811 25.8763 18.1572C26.0659 18.1333 26.2583 18.1642 26.4308 18.2463C26.6034 18.3284 26.7488 18.4581 26.8499 18.6202C26.9509 18.7823 27.0035 18.97 27.0013 19.161Z"
+                      fill="white" />
+                  </svg>
+                </i></div>
+              <div class="links">
+                <p>
+                  Like the phrase “stem cell” itself, “stem cell therapy” is often used to describe a variety of
+                  different medical therapies that utilize stem cells in some form to treat a patient. Sometimes the
+                  term is used incorrectly to refer to platelet rich plasma (PRP) injections. The term is also used to
+                  refer to stem cell transplants, also known as bone marrow transplants.
+                  <br>
+
+                  <br>Most commonly “stem cell therapy” is used to describe a procedure where the patient’s adult stem
+                  cells and other potentially regenerative cells are harvested from a tissue sample of either fat or
+                  bone marrow taken from the patient. These concentrated regenerative cells are then used to treat
+                  specific injuries typically by injecting them into the afflicted area. It should be said that this
+                  type of stem cell therapy is currently not FDA approved and clinics performing it illegally in the US
+                  or in other countries perform various versions of the procedure to treat illnesses and injuries with
+                  little to no clinical evidence.
+                  <br>
+
+                  <br>At InGeneron we use the term “regenerative cell therapy” since there are many different cell types
+                  and regenerative properties collected and used by our therapy along with adult stem cells. Importantly
+                  we do not treat patients outside of our approved clinical trials and we are dedicated to securing FDA
+                  approval through rigorous clinical testing.
+                </p>
+              </div>
+            </div>
+            <div class="bg">
+              <div class="usefull-links">Lorem ipsum dolor sit amet consectetur. Ultrices aliquam.<i
+                  class="flaticon-down-arrow">
+                  <svg width="40" height="40" viewBox="0 0 40 40" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <circle cx="20" cy="20" r="20" fill="#757AEF" />
+                    <path
+                      d="M27.0013 19.161C27.0018 19.3104 26.9688 19.4581 26.9048 19.593C26.8407 19.728 26.7473 19.8469 26.6313 19.941L20.6313 24.771C20.4523 24.9181 20.2279 24.9985 19.9963 24.9985C19.7646 24.9985 19.5402 24.9181 19.3613 24.771L13.3613 19.771C13.157 19.6013 13.0286 19.3574 13.0042 19.093C12.9799 18.8285 13.0615 18.5653 13.2313 18.361C13.401 18.1568 13.6449 18.0284 13.9093 18.004C14.1738 17.9796 14.437 18.0613 14.6413 18.231L20.0013 22.701L25.3613 18.381C25.508 18.2588 25.6868 18.1811 25.8763 18.1572C26.0659 18.1333 26.2583 18.1642 26.4308 18.2463C26.6034 18.3284 26.7488 18.4581 26.8499 18.6202C26.9509 18.7823 27.0035 18.97 27.0013 19.161Z"
+                      fill="white" />
+                  </svg>
+                </i></div>
+              <div class="links">
+                <p>
+                  Like the phrase “stem cell” itself, “stem cell therapy” is often used to describe a variety of
+                  different medical therapies that utilize stem cells in some form to treat a patient. Sometimes the
+                  term is used incorrectly to refer to platelet rich plasma (PRP) injections. The term is also used to
+                  refer to stem cell transplants, also known as bone marrow transplants.
+                  <br>
+
+                  <br>Most commonly “stem cell therapy” is used to describe a procedure where the patient’s adult stem
+                  cells and other potentially regenerative cells are harvested from a tissue sample of either fat or
+                  bone marrow taken from the patient. These concentrated regenerative cells are then used to treat
+                  specific injuries typically by injecting them into the afflicted area. It should be said that this
+                  type of stem cell therapy is currently not FDA approved and clinics performing it illegally in the US
+                  or in other countries perform various versions of the procedure to treat illnesses and injuries with
+                  little to no clinical evidence.
+                  <br>
+
+                  <br>At InGeneron we use the term “regenerative cell therapy” since there are many different cell types
+                  and regenerative properties collected and used by our therapy along with adult stem cells. Importantly
+                  we do not treat patients outside of our approved clinical trials and we are dedicated to securing FDA
+                  approval through rigorous clinical testing.
+                </p>
+              </div>
+            </div>
+            <div class="bg">
+              <div class="usefull-links">Lorem ipsum dolor sit amet consectetur. Ultrices aliquam.<i
+                  class="flaticon-down-arrow">
+                  <svg width="40" height="40" viewBox="0 0 40 40" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <circle cx="20" cy="20" r="20" fill="#757AEF" />
+                    <path
+                      d="M27.0013 19.161C27.0018 19.3104 26.9688 19.4581 26.9048 19.593C26.8407 19.728 26.7473 19.8469 26.6313 19.941L20.6313 24.771C20.4523 24.9181 20.2279 24.9985 19.9963 24.9985C19.7646 24.9985 19.5402 24.9181 19.3613 24.771L13.3613 19.771C13.157 19.6013 13.0286 19.3574 13.0042 19.093C12.9799 18.8285 13.0615 18.5653 13.2313 18.361C13.401 18.1568 13.6449 18.0284 13.9093 18.004C14.1738 17.9796 14.437 18.0613 14.6413 18.231L20.0013 22.701L25.3613 18.381C25.508 18.2588 25.6868 18.1811 25.8763 18.1572C26.0659 18.1333 26.2583 18.1642 26.4308 18.2463C26.6034 18.3284 26.7488 18.4581 26.8499 18.6202C26.9509 18.7823 27.0035 18.97 27.0013 19.161Z"
+                      fill="white" />
+                  </svg>
+                </i></div>
+              <div class="links">
+                <p>
+                  Like the phrase “stem cell” itself, “stem cell therapy” is often used to describe a variety of
+                  different medical therapies that utilize stem cells in some form to treat a patient. Sometimes the
+                  term is used incorrectly to refer to platelet rich plasma (PRP) injections. The term is also used to
+                  refer to stem cell transplants, also known as bone marrow transplants.
+                  <br>
+
+                  <br>Most commonly “stem cell therapy” is used to describe a procedure where the patient’s adult stem
+                  cells and other potentially regenerative cells are harvested from a tissue sample of either fat or
+                  bone marrow taken from the patient. These concentrated regenerative cells are then used to treat
+                  specific injuries typically by injecting them into the afflicted area. It should be said that this
+                  type of stem cell therapy is currently not FDA approved and clinics performing it illegally in the US
+                  or in other countries perform various versions of the procedure to treat illnesses and injuries with
+                  little to no clinical evidence.
+                  <br>
+
+                  <br>At InGeneron we use the term “regenerative cell therapy” since there are many different cell types
+                  and regenerative properties collected and used by our therapy along with adult stem cells. Importantly
+                  we do not treat patients outside of our approved clinical trials and we are dedicated to securing FDA
+                  approval through rigorous clinical testing.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+    <footer class="footer">
+      <div class="container">
+        <div class="footer__wrap company">
+          <div class="company__container">
+            <div class="footer__blog">
+              <div class="footer__logo">
+                <a href="#"><img src="images/logo.svg" class="logo" alt="logo"></a>
+              </div>
+              <nav class="menu__footer">
+                <ul class="menu__list-footer">
+                  <li class="menu__list-item">
+                    <a class="menu__link active-link" href="#">Каталог</a>
+                  </li>
+                  <li class="menu__list-item">
+                    <a class="menu__link" href="#">Производители</a>
+                  </li>
+                  <li class="menu__list-item">
+                    <a class="menu__link" href="#">Для кого мы работаем</a>
+                  </li>
+                  <li class="menu__list-item">
+                    <a class="menu__link" href="#">Сертификаты</a>
+                  </li>
+                  <li class="menu__list-item">
+                    <a class="menu__link" href="#">О нас</a>
+                  </li>
+                  <li class="menu__list-item">
+                    <a class="menu__link" href="#">FAQ</a>
+                  </li>
+                  <li class="menu__list-item">
+                    <a class="menu__link" href="#">Контакты</a>
+                  </li>
+                </ul>
+              </nav>
+              <a href="#" class="footer__link">ОСТАВИТЬ ЗАЯВКУ</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </footer>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js">
+    </script>
+    <script src="libs/slick/slick.min.js"></script>
+    <script src="js/main.js"></script>
+  </body>
+
+</html>
